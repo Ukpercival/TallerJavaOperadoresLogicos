@@ -2,7 +2,7 @@ package tallerJava4;
 
 import java.util.Scanner;
 
-public class comparadorEdad {
+public class ComparadorEdad {
     public static void main(String[] args){
 
         Scanner scanner = new Scanner(System.in);
@@ -26,3 +26,4 @@ public class comparadorEdad {
 
     }
 }
+
