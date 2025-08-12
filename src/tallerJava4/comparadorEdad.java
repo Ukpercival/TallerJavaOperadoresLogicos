@@ -8,9 +8,9 @@ public class comparadorEdad {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Pepito, ¿cual es tu edad?");
-        int edadPepito = scanner.nextByte();
+        int edadPepito = scanner.nextInt();
         System.out.println("Juan, ¿Cual es tu edad?");
-        int edadJuan = scanner.nextByte();
+        int edadJuan = scanner.nextInt();
 
         if (edadPepito != edadJuan){
             System.out.println("no tienen la misma edad");
